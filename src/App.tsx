@@ -4,8 +4,11 @@ function App() {
   return (
     <div>
       <span className="timer__heading">Zeit festlegen</span>
+      <br />
       <input type="number" value={0} />
+      <br />
       <span className="timer__subtitle">Time left:</span>
+      <br />
       <span className="time__time-left">0.000s</span>
       <div className="timer__button-row">
         <button className="timer__start">Start</button>
